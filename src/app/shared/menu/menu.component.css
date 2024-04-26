@@ -1,0 +1,43 @@
+.app-menu-sidenav {
+    width: 230px;
+}
+.app-menu-sidenav-content {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.toolbar-item-spacer {
+    flex: 1 1 auto;
+}
+
+.app-container {
+    height: 90%;
+    margin: 0;
+    background-color: rgb(15, 151, 236);
+}  
+
+.content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.toolbar{
+    background-color: rgb(15, 151, 236);
+}
+  
+.mat-nav-list .mat-list-item:focus,
+.mat-action-list .mat-list-item:focus,
+.mat-list-option:focus {
+  background: #76b900 !important;
+}
+
+.example-container {
+    width: auto;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #555;
+    border-color:rgb(15, 151, 236) ;
+  }

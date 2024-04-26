@@ -1,0 +1,26 @@
+.client-list-container {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+  
+  .action-buttons {
+  display: flex; 
+}
+
+.action-header .action-buttons {
+  justify-content: flex-end;
+}
+
+mat-table,
+  table {
+    width: 100%;
+  }
+  
+  .table-actions {
+    margin-bottom: 16px;
+  }
+
+.action-cell .action-buttons { 
+  justify-content: center; 
+}
